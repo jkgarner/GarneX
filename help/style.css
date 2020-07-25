@@ -1,0 +1,96 @@
+BODY
+{
+    OVERFLOW-Y: scroll;
+    BACKGROUND-ATTACHMENT: scroll;
+    OVERFLOW-X: scroll;
+    WIDTH: 100%;
+    BACKGROUND-COLOR: #ffffff
+}
+P.title
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 36pt;
+    COLOR: black;
+    FONT-FAMILY: times roman MS
+}
+P.menu
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 16pt;
+    COLOR: black;
+    FONT-FAMILY: times roman MS;
+    TEXT-DECORATION: none
+}
+A.menu
+{
+    FONT-SIZE: 16pt;
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+A.menu:active
+{
+    FONT-SIZE: 16pt;
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+A.menu:visited
+{
+    FONT-SIZE: 16pt;
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+
+A.menu:hover
+{
+    FONT-SIZE: 16pt;
+    COLOR: #FF3300;
+    TEXT-DECORATION: none
+}
+
+P.subtitle
+{
+    FONT-WEIGHT: 500;
+    FONT-SIZE: 18pt;
+    COLOR: black;
+    FONT-FAMILY: times roman MS
+}
+P.bold
+{
+    FONT-WEIGHT: 500;
+    FONT-SIZE: 14pt;
+    COLOR: #000000;
+    FONT-FAMILY: times roman MS
+}
+P.text
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12pt;
+    COLOR: #000000;
+    FONT-FAMILY: times roman MS;
+    POSITION: relative;
+    TOP: -15px
+}
+P.label
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: #000000;
+    FONT-FAMILY: times roman MS;
+    POSITION: relative;
+}
+A.text
+{
+    COLOR: #FF3300;
+    TEXT-DECORATION: none
+}
+.code
+{
+    FONT-SIZE: 12pt;
+    COLOR: black;
+    FONT-FAMILY: 'Courier New';
+    FONT-VARIANT: small-caps
+}
+.tiny
+{
+    FONT-SIZE: 2pt
+}

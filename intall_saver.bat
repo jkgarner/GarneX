@@ -1,0 +1,1 @@
+copy /y Garnex.scr c:\windows\system32\Garnex.scr
