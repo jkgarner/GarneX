@@ -130,6 +130,8 @@ protected:
 	afx_msg void OnMouseMove(UINT nFlags, CPoint point);
 	afx_msg BOOL OnSetCursor(CWnd* pWnd, UINT nHitTest, UINT message);
 	afx_msg void OnSysColorChange();
+	afx_msg BOOL OnQueryEndSession();
+	afx_msg void OnEndSession(BOOL);
 	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
 

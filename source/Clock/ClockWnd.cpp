@@ -116,11 +116,26 @@ BEGIN_MESSAGE_MAP(CClockWnd, CFrameWnd)
 	ON_WM_MOUSEMOVE()
 	ON_WM_SETCURSOR()
 	ON_WM_SYSCOLORCHANGE()
+	ON_WM_QUERYENDSESSION()
+	ON_WM_ENDSESSION()
 	//}}AFX_MSG_MAP
 END_MESSAGE_MAP()
 
 /////////////////////////////////////////////////////////////////////////////
 // CClockWnd message handlers
+BOOL CClockWnd::OnQueryEndSession()
+{
+	return TRUE;
+}
+
+void CClockWnd::OnEndSession(BOOL bEnding)
+{
+	if (bEnding)
+	{
+		KillTimer(m_timer);
+	}
+	CWnd::OnEndSession(bEnding);
+}
 
 void CClockWnd::OnSize(UINT nType, int cx, int cy) 
 {
